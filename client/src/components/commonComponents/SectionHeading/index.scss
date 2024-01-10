@@ -1,0 +1,27 @@
+.section-heading{
+    margin: 20px 0;
+    .section-heading-title{
+        display: inline-block;
+        position: relative;
+        &::after{
+            content: '';
+            width: 150px;
+            height: 2px;
+            background: var(--main-color);
+            position: absolute;
+            bottom: -7px;
+            right: 0;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .section-heading-title{
+            
+            &::after{
+                
+                width: 70px;
+                
+            }
+        }
+    }
+}

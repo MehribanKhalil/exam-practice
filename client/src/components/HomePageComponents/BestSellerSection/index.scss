@@ -1,0 +1,23 @@
+.swiper-button-next{
+    color: gray;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    font-size: 20px;
+    z-index: 12;
+    &::after{
+    font-size: 20px;
+    }
+}
+
+.swiper-button-prev {
+    color: gray;
+    position: absolute;
+    left: 40%;
+    top: 95%;
+    z-index: 12;
+    font-size: 20px;
+    &::after{
+    font-size: 20px;
+    }
+}

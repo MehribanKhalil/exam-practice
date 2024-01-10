@@ -1,0 +1,15 @@
+.navbar{
+    .nav-item{
+        padding: 1.5rem 0;
+        font-weight: 500;
+        &:hover{
+            color: var(--main-color);
+            cursor: pointer;
+        }
+
+        .active{
+            color: var(--main-color);
+
+        }
+    }
+}
